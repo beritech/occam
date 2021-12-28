@@ -1,0 +1,10 @@
+import Facturacion.FacturacionFactura
+
+model {
+    FacturacionFactura factura
+}
+
+json{
+    id      factura?.id
+    nombre  factura?.nombre
+}

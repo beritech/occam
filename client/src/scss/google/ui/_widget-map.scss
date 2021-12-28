@@ -1,0 +1,9 @@
+.widget-map {
+	background: var(--app-component-bg);
+	
+	@include box-shadow(inset 0 0 0 1px var(--app-component-border-color-transparent));
+	
+	& * {
+		@include box-shadow(none);
+	}
+}
